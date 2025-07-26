@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnlineMeal - Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <img src="images/logo.png" alt="Online Meal Logo" />
+    </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="background-image: url('images/hero3.jpg');">
+<div class="hero-content">
+    <h1>Our Services</h1>
+    <p>Explore what OnlineMeal offers</p>
+</div>
+</header>
+
+
+  <section class="services-grid">
+    <div class="service-card">
+      <img src="images/service1.jpg" alt="Food Ordering">
+      <h2>Food Ordering</h2>
+      <p>Quick and easy food delivery from your favorite restaurants.</p>
+    </div>
+    <div class="service-card">
+      <img src="images/service2.jpg" alt="Food Catering">
+      <h2>Food Catering</h2>
+      <p>Delicious catering options for all your events and parties.</p>
+    </div>
+    <div class="service-card">
+      <img src="images/service3.jpg" alt="Bulk Orders">
+      <h2>Bulk Orders</h2>
+      <p>Special deals and discounts on large quantity meal orders.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OnlineMeal. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
+</script>
+
+</body>
+
+</html>
