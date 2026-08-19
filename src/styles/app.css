@@ -2076,3 +2076,21 @@ margin-top: 4rem;
     transform: scale(1);
   }
 }
+
+.heroLeft h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'Georgia', serif;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .heroLeft h1 {
+    font-size: 38px;
+    margin-top: 0;
+  }
+}
+
